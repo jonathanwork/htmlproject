@@ -38,6 +38,21 @@ ul {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+input {
+  color: #aaa;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 2px;
+  border: 1px solid #eee;
+  overflow: hidden;
+  width: 100%;
+  margin: 15px 0 20px;
+  padding: 12px 15px;
+  transition-duration: .3s;
+}
+input:focus {
+  border-color: #e8491d;
+}
 
 /* Header */
 header {

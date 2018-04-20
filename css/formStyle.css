@@ -1,13 +1,10 @@
-
 @media only screen and (min-width: 720px) and (max-width: 4020px) {
 
-
-  #messageText {
-	  width: 98%;
-	  height: 128px;
-  }
-
 	/* Conatct Form Style Email, Phone Number, Your Message */
+	.form-container {
+		width: 80%;
+	  margin: auto;
+	}
 	.contact-form {
 		margin: 50px 0;
 		text-align: center;
@@ -46,8 +43,11 @@
 			width: 100%;
 			margin: 15px 0 20px;
 			padding: 12px 15px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
 			transition-duration: .3s;
-			height: 128px;
+			min-height: 150px;
 	}
 	.contact-form textarea:focus {
 		border: 1px solid #eB491d;
