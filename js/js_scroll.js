@@ -6,7 +6,7 @@ window.alert("js_scroll.js loaded successfully");
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
-    if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
         document.getElementById("boxes").className = "animated slideInUp";
         document.getElementById("boxes").style.visibility = "visible";
 

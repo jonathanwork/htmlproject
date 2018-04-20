@@ -1,30 +1,82 @@
-/*Author: Jonathan R. Lopez*/
 
-#messageText {
-	width: 98%;
-	height: 128px;
-}
+@media only screen and (min-width: 720px) and (max-width: 4020px) {
 
-#form  {
-	margin: 48px 0 ;
-}
-/*we add the normal form setting on here. */
-input, textarea {
-	height: 16px;
-	width: 288px;
-	padding: 8px;
-	margin: 16px 0;
-	border-style: solid;
-}
 
-select {
-	height: 32px;
-	width: 288px;
-	margin: 16px 0;
-}
+  #messageText {
+	  width: 98%;
+	  height: 128px;
+  }
 
-label {
-	padding: 16px 0;
+	/* Conatct Form Style Email, Phone Number, Your Message */
+	.contact-form {
+		margin: 50px 0;
+		text-align: center;
+	}
+	.contact-form input {
+		color: #aaa;
+		font-size: 14px;
+		font-weight: 500;
+		border-radius: 2px;
+		border: 1px solid #eee;
+		overflow: hidden;
+		width: 100%;
+		margin: 15px 0 20px;
+		padding: 12px 15px;
+		transition-duration: .3s;
+	}
+	.contact-form input:focus {
+		border-color: #e8491d;
+	}
+
+	input[name="email"] {
+			width: 45%;
+			float: left;
+	}
+	input[name="phone"] {
+			width: 45%;
+			float: right;
+	}
+	.contact-form textarea {
+			color: #aaa;
+			font-size: 14px;
+			font-weight: 500;
+			border-radius: 2px;
+			border: 1px solid #eee;
+			overflow: hidden;
+			width: 100%;
+			margin: 15px 0 20px;
+			padding: 12px 15px;
+			transition-duration: .3s;
+			height: 128px;
+	}
+	.contact-form textarea:focus {
+		border: 1px solid #eB491d;
+	}
+	input, textarea {
+		outline: none;
+		max-width: 100%;
+	}
+
+
+
+	/* Submit Button Style */
+	.button_form_submit {
+	  height: 38px;
+	  background: #e8491d;
+	  border: 0;
+	  padding-left: 20px;
+	  padding-right: 20px;
+		border-radius: 25px;
+	  color: #ffffff;
+		transition-duration: .3s;
+	}
+	.button_form_submit:hover {
+		border-color: #45deb0;
+		background: #45deb0;
+		color: #fff;
+		cursor: pointer;
+	}
+
 }
 
 button[type="submit"] {
@@ -42,4 +94,3 @@ button[type="submit"] {
 		margin: 8px 0;
 	}
 }
-

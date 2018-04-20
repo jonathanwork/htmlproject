@@ -19,9 +19,17 @@ ul {
   height: 38px;
   background: #e8491d;
   border: 0;
+  border-radius: 25px;
   padding-left: 20px;
   padding-right: 20px;
   color: #ffffff;
+  transition-duration: .3s;
+}
+.button_1:hover {
+  border-color: #45deb0;
+	background: #45deb0;
+	color: #fff;
+  cursor: pointer;
 }
 .dark {
   padding: 15px;
