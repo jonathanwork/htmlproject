@@ -104,21 +104,6 @@ header a:hover {
   width: 250px;
 }
 
-/* Boxes */
-#boxes {
-  margin-top: 20px;
-  visibility: hidden;
-}
-#boxes .box {
-  float: left;
-  text-align: center;
-  width: 30%;
-  padding: 10px;
-}
-#boxes .box img {
-  width: 90px;
-}
-
 /* Sidebar */
 aside#sidebar {
   float: right;

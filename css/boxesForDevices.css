@@ -1,0 +1,48 @@
+/*author: Jonathan R. Lopez*/
+/* Boxes */
+@media only screen and (min-width: 720px) and (max-width: 4020px) {
+	#boxes {
+	 	margin-top: 20px;
+		visibility: hidden;
+	}
+	#boxes .box {
+		float: left;
+		text-align: center;
+		width: 30%;
+		padding: 10px;
+	}
+	#boxes .box img {
+	  	width: 90px;
+	}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+
+	#boxes {
+		width: 100%;
+		margin: 48px 0;
+		text-align: center;
+	}
+
+	#boxes > .container {
+		width: 100%;
+	}
+
+	.box {
+		width: 300px;
+		display: inline-block;
+		clear: both;
+		margin: 32px 0;
+
+	}
+	.box > p {
+		width: 100%;
+		display: inline-block;
+		clear: both
+	}
+	.box > img {
+		width: 50%;
+
+	}
+
+}
