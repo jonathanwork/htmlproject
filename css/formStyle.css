@@ -1,3 +1,5 @@
+/*Author: Jonathan R. Lopez*/
+
 #messageText {
 	width: 98%;
 	height: 128px;
@@ -31,3 +33,13 @@ button[type="submit"] {
 	padding: 0 8px;
 	margin: 16px 0;
 }
+
+/*adding media query here.*/
+@media only screen and (max-width: 320px) {
+	input{
+		border-style: solid;
+		width: 95%;
+		margin: 8px 0;
+	}
+}
+
