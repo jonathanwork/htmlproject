@@ -1,4 +1,11 @@
+
 @media only screen and (min-width: 720px) and (max-width: 4020px) {
+
+
+  #messageText {
+	  width: 98%;
+	  height: 128px;
+  }
 
 	/* Conatct Form Style Email, Phone Number, Your Message */
 	.contact-form {
@@ -51,6 +58,7 @@
 	}
 
 
+
 	/* Submit Button Style */
 	.button_form_submit {
 	  height: 38px;
@@ -69,4 +77,20 @@
 		cursor: pointer;
 	}
 
+}
+
+button[type="submit"] {
+	width: 144px ;
+	height: 32px;
+	padding: 0 8px;
+	margin: 16px 0;
+}
+
+/*adding media query here.*/
+@media only screen and (max-width: 320px) {
+	input{
+		border-style: solid;
+		width: 95%;
+		margin: 8px 0;
+	}
 }
