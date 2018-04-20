@@ -2,14 +2,15 @@
 /* Boxes */
 @media only screen and (min-width: 720px) and (max-width: 4020px) {
 	#boxes {
-	 	margin-top: 20px;
 		visibility: hidden;
+		padding: 96px 0;
+		background-color: #fff;
 	}
 	#boxes .box {
 		float: left;
 		text-align: center;
 		width: 30%;
-		padding: 10px;
+		padding: 16px;
 	}
 	#boxes .box img {
 	  	width: 90px;
@@ -22,6 +23,7 @@
 		width: 100%;
 		margin: 48px 0;
 		text-align: center;
+
 	}
 
 	#boxes > .container {
