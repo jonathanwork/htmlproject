@@ -4,6 +4,7 @@
 	#boxes {
 		visibility: hidden;
 		padding: 96px 0;
+		background-color: #fff;
 	}
 	#boxes .box {
 		float: left;
