@@ -50,13 +50,13 @@
 	.hr-top {
 		width: 90px;
 		border : 0;
-		height: 1px;
+		height: 0.8095px;
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 	}
 	.hr-bottom {
 		width: 30px;
 		border : 0;
-		height: 1px;
+		height: 0.8095px;
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 	}
 	.center-all, p {
