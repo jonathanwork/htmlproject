@@ -85,13 +85,7 @@ button[type="submit"] {
 }
 
 /*adding media query here.*/
-@media only screen and (max-width: 320px) {
-	input{
-		border-style: solid;
-		width: 95%;
-		margin: 8px 0;
-	}
-	
+@media only screen and (min-width: 0px) and (max-width: 720px) {
 	/* Conatct Form Style Email, Phone Number, Your Message */
 	.form-container {
 		width: 80%;
@@ -148,8 +142,6 @@ button[type="submit"] {
 		outline: none;
 		max-width: 100%;
 	}
-
-
 
 	/* Submit Button Style */
 	.button_form_submit {

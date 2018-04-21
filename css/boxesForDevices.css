@@ -4,28 +4,13 @@
 	#boxes {
 		visibility: hidden;
 		padding: 96px 0;
-		background-color: #f8f8f8;
+		background-color: #fff;
 	}
 	#boxes .box {
 		float: left;
 		text-align: center;
 		width: 30%;
 		padding: 16px;
-		box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .05);
-		border-radius: 6px;
-		background: #fff;
-		-webkit-box-sizing: border-box;
-	  -moz-box-sizing: border-box;
-	  box-sizing: border-box;
-	  margin: 30px 0px;
-	  margin-right: 5%;
-
-	}
-
-	.box:nth-child(3) {
-		margin-right: 0px !important;
-		float: right !important;
-
 	}
 	#boxes .box img {
 	  	width: 90px;
@@ -38,24 +23,25 @@
 		width: 100%;
 		margin: 48px 0;
 		text-align: center;
-
 	}
 
 	#boxes > .container {
-		width: 100%;
+		width: 80%;
+		overflow: visible;
 	}
 
 	.box {
-		width: 300px;
+		width: 100%;
 		display: inline-block;
 		clear: both;
-		margin: 32px 0;
+		margin: 32px 5%;
 
 	}
 	.box > p {
 		width: 100%;
 		display: inline-block;
-		clear: both
+		clear: both;
+		word-wrap: break-word !important;
 	}
 	.box > img {
 		width: 50%;
