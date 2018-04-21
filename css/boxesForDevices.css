@@ -4,13 +4,28 @@
 	#boxes {
 		visibility: hidden;
 		padding: 96px 0;
-		background-color: #fff;
+		background-color: #f8f8f8;
 	}
 	#boxes .box {
 		float: left;
 		text-align: center;
 		width: 30%;
 		padding: 16px;
+		box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .05);
+		border-radius: 6px;
+		background: #fff;
+		-webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	  margin: 30px 0px;
+	  margin-right: 5%;
+
+	}
+
+	.box:nth-child(3) {
+		margin-right: 0px !important;
+		float: right !important;
+
 	}
 	#boxes .box img {
 	  	width: 90px;
