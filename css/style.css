@@ -53,6 +53,9 @@ input {
 input:focus {
   border-color: #e8491d;
 }
+.center-all {
+  text-align: center;
+}
 
 /* Showcase */
 #showcase {
