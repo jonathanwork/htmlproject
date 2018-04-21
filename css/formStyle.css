@@ -91,4 +91,81 @@ button[type="submit"] {
 		width: 95%;
 		margin: 8px 0;
 	}
+	
+	/* Conatct Form Style Email, Phone Number, Your Message */
+	.form-container {
+		width: 80%;
+	  margin: auto;
+	}
+	.contact-form {
+		margin: 50px 0;
+		text-align: center;
+	}
+	.contact-form input {
+		color: #aaa;
+		font-size: 14px;
+		font-weight: 500;
+		border-radius: 2px;
+		border: 1px solid #eee;
+		overflow: hidden;
+		width: 100%;
+		margin: 15px 0 20px;
+		padding: 12px 15px;
+		transition-duration: .3s;
+	}
+	.contact-form input:focus {
+		border-color: #e8491d;
+	}
+
+	input[name="email"] {
+			width: 45%;
+			float: left;
+	}
+	input[name="phone"] {
+			width: 45%;
+			float: right;
+	}
+	.contact-form textarea {
+			color: #aaa;
+			font-size: 14px;
+			font-weight: 500;
+			border-radius: 2px;
+			border: 1px solid #eee;
+			overflow: hidden;
+			width: 100%;
+			margin: 15px 0 20px;
+			padding: 12px 15px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			transition-duration: .3s;
+			min-height: 150px;
+	}
+	.contact-form textarea:focus {
+		border: 1px solid #eB491d;
+	}
+	input, textarea {
+		outline: none;
+		max-width: 100%;
+	}
+
+
+
+	/* Submit Button Style */
+	.button_form_submit {
+	  height: 38px;
+	  background: #e8491d;
+	  border: 0;
+	  padding-left: 20px;
+	  padding-right: 20px;
+		border-radius: 25px;
+	  color: #ffffff;
+		transition-duration: .3s;
+	}
+	.button_form_submit:hover {
+		border-color: #45deb0;
+		background: #45deb0;
+		color: #fff;
+		cursor: pointer;
+	}
 }
