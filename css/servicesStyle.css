@@ -1,5 +1,5 @@
 .services-section {
-  background-color: red;
+  visibility: hidden;
 }
 .service-box {
   width: 30%;
