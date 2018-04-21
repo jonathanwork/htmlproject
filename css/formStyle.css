@@ -110,21 +110,22 @@ button[type="submit"] {
 }
 
 /*adding media query here.*/
-@media only screen and (max-width: 320px) {
-	input{
-		border-style: solid;
-		width: 95%;
-		margin: 8px 0;
-	}
+
+@media only screen and (min-width: 0px) and (max-width: 720px) {
+  input{
+      border-style: solid;
+      width: 95%;
+      margin: 8px 0;
+    }
 
 	/* Conatct Form Style Email, Phone Number, Your Message */
 	.form-container {
 		width: 80%;
-	  margin: auto;
+	 	margin: auto;
 	}
 	.contact-form {
 		margin: 50px 0;
-		text-align: center;
+		text-align: center !important;
 	}
 	.contact-form input {
 		color: #aaa;
@@ -142,13 +143,16 @@ button[type="submit"] {
 		border-color: #e8491d;
 	}
 
+	input[name="email"] , input[name="phone"] {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
 	input[name="email"] {
-			width: 45%;
-			float: left;
+			width: 100%;
 	}
 	input[name="phone"] {
-			width: 45%;
-			float: right;
+			width: 100%;
 	}
 	.contact-form textarea {
 			color: #aaa;
@@ -173,8 +177,6 @@ button[type="submit"] {
 		outline: none;
 		max-width: 100%;
 	}
-
-
 
 	/* Submit Button Style */
 	.button_form_submit {

@@ -1,0 +1,37 @@
+@media only screen and (min-width: 720px) and (max-width: 4020px) {
+
+	/* Showcase */
+	#showcase {
+	  min-height: 400px;
+	  background: url('../img/showcase.jpeg') no-repeat 0 -500px;
+	  text-align: center;
+	  color: #ffffff;
+	}
+	#showcase h1 {
+	   margin-top: 100px;
+	   font-size: 55px;
+	   margin-bottom: 10px;
+	 }
+	#showcase p {
+	  font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 720px) {
+
+	/* Showcase */
+	#showcase {
+	  min-height: 400px;
+	  background: url('../img/showcase.jpeg') no-repeat 0 -500px;
+	  text-align: center;
+	  color: #ffffff;
+	}
+	#showcase h1 {
+	   margin-top: 100px;
+	   font-size: 55px;
+	   margin-bottom: 10px;
+	 }
+	#showcase p {
+	  font-size: 20px;
+	}
+}
