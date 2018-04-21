@@ -10,5 +10,9 @@ function myFunction() {
         document.getElementById("boxes").className = "animated slideInUp";
         document.getElementById("boxes").style.visibility = "visible";
     }
+    if (document.body.scrollTop > 1850 || document.documentElement.scrollTop > 1850) {
+        document.getElementById("services").className = "animated zoomIn";
+        document.getElementById("services").style.visibility = "visible";
+    }
 }
 // End
